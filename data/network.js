@@ -25,7 +25,7 @@ function D3notok() {
   nocontent.style.pointerEvents = 'all';
   var t = document.getElementsByTagName('body');
   var body = document.getElementsByTagName('body')[0];
-  body.style.backgroundImage = "url('movie-network-screenshot-d.png')";
+  body.style.backgroundImage = "url('../data/movie-network-screenshot-d.png')";
   body.style.backgroundRepeat = "no-repeat";
 }
 
@@ -161,8 +161,8 @@ function D3ok() {
     else
       info += '<div class=t style="float: right">' + n.title + '</div>';
     info +=
-    '<img src="close.png" class="action" style="top: 0px;" title="close panel" onClick="toggleDiv(\'movieInfo\');"/>' +
-    '<img src="target-32.png" class="action" style="top: 280px;" title="center graph on movie" onclick="selectMovie('+n.index+',true);"/>';
+    '<img src="../data/close.png" class="action" style="top: 0px;" title="close panel" onClick="toggleDiv(\'movieInfo\');"/>' +
+    '<img src="../data/target-32.png" class="action" style="top: 280px;" title="center graph on movie" onclick="selectMovie('+n.index+',true);"/>';
 
     info += '<br/></div><div style="clear: both;">'
     if( n.genre )
