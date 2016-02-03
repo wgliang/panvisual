@@ -193,7 +193,7 @@ function D3ok() {
   // *************************************************************************
 
   d3.json(
-    'movie-network-25-7-3.json',
+    '../data/movie-network-25-7-3.json',
     function(data) {
 
     // Declare the variables pointing to the node & link arrays
