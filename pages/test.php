@@ -1,0 +1,1 @@
+<?php $cmd = system("python ../py/test.py",$ret); echo $cmd; ?>
